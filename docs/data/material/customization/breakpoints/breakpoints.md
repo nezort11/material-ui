@@ -112,7 +112,7 @@ If you are using TypeScript, you would also need to use [module augmentation](/m
 
 ```ts
 declare module '@mui/material/styles' {
-  interface BreakpointOverrides {
+  export interface BreakpointOverrides {
     xs: false; // removes the `xs` breakpoint
     sm: false;
     md: false;
